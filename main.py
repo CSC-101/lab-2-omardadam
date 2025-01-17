@@ -1,10 +1,10 @@
 # Create a welcome message.
 # Input: a name as a string
 # Result: a string
-def welcome_message(name:str) -> str:
+def odadam(name:str) -> str:
    message = "Hello, " + name + "."
    return message
 
 
-message = welcome_message("anrathi@calpoly.edu")
+message = odadam("anrathi@calpoly.edu")
 print(message)
